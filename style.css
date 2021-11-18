@@ -1,0 +1,88 @@
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+header img{
+    width: 50px;
+}
+nav ul{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1%;
+}
+.gomb-ar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#main-tartalom{
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: inherit;
+    align-content: center;
+}
+#kosar-tartalom{
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+}
+#kosar-tartalom img{
+    width: 15px;
+}
+.termek-kosarban{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
